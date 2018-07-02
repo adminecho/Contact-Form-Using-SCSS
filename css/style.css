@@ -1,0 +1,76 @@
+.mx-auto, .contact-form {
+  margin-left: auto;
+  margin-right: auto; }
+
+@font-face {
+  font-family: alexbrush;
+  src: url(../fonts/AlexBrush-Regular.ttf); }
+@font-face {
+  font-family: cambria;
+  src: url(../fonts/cambria.ttc); }
+*, *:hover {
+  transition: 0.3s; }
+
+body {
+  height: 100vh;
+  background: url(../images/fullbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff; }
+
+h1 {
+  font-family: alexbrush;
+  font-size: 80px;
+  margin: 100px 0 50px;
+  font-weight: 900; }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 50px; } }
+
+.contact-form {
+  float: none;
+  background: #000000bf;
+  padding: 50px 70px;
+  border-radius: 5px; }
+  @media (max-width: 992px) {
+    .contact-form {
+      max-width: 70%; } }
+  @media (max-width: 768px) {
+    .contact-form {
+      max-width: 90%;
+      padding: 30px 50px; } }
+
+.form-control {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff45;
+  border-radius: 0;
+  font-size: 20px;
+  color: #fff;
+  font-family: cambria;
+  margin-bottom: 20px; }
+
+.form-control:focus {
+  box-shadow: none; }
+
+label {
+  font-size: 20px;
+  color: #fff;
+  font-family: cambria; }
+
+.btn {
+  background: #055c8a;
+  border-color: #055c8a;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: cambria;
+  font-size: 20px;
+  padding: 10px 0;
+  min-width: 200px; }
+
+.btn:hover {
+  background: #014061;
+  color: #fff;
+  border-color: #014061; }
+
+/*# sourceMappingURL=style.css.map */
